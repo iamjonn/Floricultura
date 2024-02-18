@@ -42692,7 +42692,22 @@ a.u-link.u-text-hover-grey-90:hover {
   border-radius: 20px;
   margin:15px;
   cursor: pointer;
+  border: 1px solid #2f5a43;
 }
+
+
+.PopUpZap:hover{
+  background:#F0FFF0;
+  bottom:0;
+  position:fixed;
+  right:0;
+  border-radius: 20px;
+  margin:15px;
+  cursor: pointer;
+  border: 1px solid #2f5a43;
+  transition: all 1s;
+}
+
 
  .PopUpZap a{
   display: flex;
@@ -42726,4 +42741,13 @@ width: 60px;
   margin:15px;
   cursor: pointer;
   display:none;
+}
+
+@keyframes mover {
+  10% { transform: translateX(100%); }
+  0% { transform: translateX(100%); }
+}
+
+.PopUpZap {
+  animation: mover 5s linear forwards;
 }
