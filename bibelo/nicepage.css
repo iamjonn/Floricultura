@@ -42751,3 +42751,7 @@ width: 60px;
 .PopUpZap {
   animation: mover 5s linear forwards;
 }
+
+.eu:link{
+  color: inherit; 
+}
